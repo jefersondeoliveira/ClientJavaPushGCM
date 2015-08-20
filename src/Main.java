@@ -16,7 +16,7 @@ public class Main {
 		System.out.println( "Sending POST to GCM" );
 
         PushRequest c = new PushRequest();
-        c.addRegId("APA91bE3jWQWgMFp7-OKL7ovFA18wc926cBmYqw6d6GgZNpqqt1Bjx7AMeYZUYxyBfCO1wRdGNxscuIdEYdTK5Ew4gd8CE9Ip6Cc2ooVv6iSf9aLqOxXeH_jMNMbQPTGAgyEiOWzMvCiRxbIdLfc1YYSzqatJol-kzv8t_AhoH9cuBnhk8gp004");
+        c.addRegId("APA91bE3....");
         c.createData("Test Title", "Funcionou!");
         
         Gson gson = new GsonBuilder().create();
