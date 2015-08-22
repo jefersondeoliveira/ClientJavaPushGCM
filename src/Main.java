@@ -16,7 +16,7 @@ public class Main {
 		System.out.println( "Sending POST to GCM" );
 
         PushRequest c = new PushRequest();
-        c.addRegId("APA91bE3....");
+        c.addRegId("APA91bE3jWQWgM...");
         c.createData("Test Title", "Funcionou!");
         
         Gson gson = new GsonBuilder().create();
